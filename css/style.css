@@ -585,10 +585,7 @@ iframe{
     overflow: hidden;
     white-space: nowrap;
     box-sizing: border-box;
-    border-top: 1px solid #ccc;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    /* background-color: #f9f9f9; */
+    border-top: 1px solid #ccc;
 }
 
 .offers {
