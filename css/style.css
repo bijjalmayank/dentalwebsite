@@ -79,6 +79,10 @@
 
 
 /*** Navbar ***/
+
+.navbar{
+    width: 100%;
+}
 .navbar .dropdown-toggle::after {
     border: none;
     content: "\f107";
@@ -573,4 +577,53 @@ iframe{
     padding: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border: 0px;
+}
+
+.offers-container {
+    background-color: #ff5353;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+    border-top: 1px solid #ccc;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    /* background-color: #f9f9f9; */
+}
+
+.offers {
+    display: inline-block;
+    animation: slide 10s linear infinite;
+}
+
+.offers p {
+    display: inline-block;
+    padding: 0px 20px;
+    margin: 0;
+    background-color: #ff5353;
+    color: rgb(0, 3, 83);
+    border-right: 0px solid #ccc;
+    font-size: 25px;
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.header{
+    border-radius: 25px;
+}
+
+.header img{
+    border-radius: 25px;
+}
+
+html, body {
+    width: 100%;
+    overflow-x: hidden;
 }
